@@ -405,6 +405,12 @@ body {
   bottom: 20px;
 }
 
+@media screen and (max-width: 769px) {
+  .services-items .item figcaption {
+    bottom: -20px;
+  }
+}
+
 .services-items .item figcaption a {
   border-radius: 10px;
   color: #0A65BE !important;
