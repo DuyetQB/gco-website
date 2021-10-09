@@ -25,6 +25,10 @@
             position: absolute;
             right: 0px;
             top: -54px;
+
+            @media screen and (max-width:769px) {
+                opacity: 0.4;
+            }
         }
 
     }

@@ -46,6 +46,10 @@
 
     h4 {
         font-size: $size-base;
+
+        @media screen and (max-width:769px) {
+            margin-top: 12px;
+        }
     }
 
 }

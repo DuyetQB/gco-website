@@ -10,6 +10,10 @@
     src: url(../fonts/Segoe-Ui/segoeui.woff);
 }
 
+:root {
+    --bs-body-font-family: "Segoe UI";
+}
+
 html {
     font-family: "Segoe UI" !important;
     line-height: 1.6;

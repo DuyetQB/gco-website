@@ -10,6 +10,10 @@
   src: url(../fonts/Segoe-Ui/segoeui.woff);
 }
 
+:root {
+  --bs-body-font-family: "Segoe UI";
+}
+
 html {
   font-family: "Segoe UI" !important;
   line-height: 1.6;
@@ -492,6 +496,7 @@ body {
   .job .image-float {
     left: -30px;
     top: 0px;
+    opacity: 0.2;
   }
 }
 
@@ -524,6 +529,12 @@ body {
   position: absolute;
   right: 0px;
   top: -54px;
+}
+
+@media screen and (max-width: 769px) {
+  .form-item .image-float {
+    opacity: 0.4;
+  }
 }
 
 .form .btn-submit {
@@ -571,8 +582,20 @@ body {
   font-weight: 600;
 }
 
+@media screen and (max-width: 769px) {
+  .exp-items-item .small-item .time {
+    margin-top: 12px;
+  }
+}
+
 .exp-items-item p {
   margin-top: 12px;
+}
+
+@media screen and (max-width: 769px) {
+  .exp-items-item p {
+    margin-bottom: 12px !important;
+  }
 }
 
 .exp-items .content-wrap {
@@ -648,6 +671,12 @@ body {
 
 .footer h4 {
   font-size: 16px;
+}
+
+@media screen and (max-width: 769px) {
+  .footer h4 {
+    margin-top: 12px;
+  }
 }
 
 .copy-right {
