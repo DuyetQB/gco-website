@@ -1,0 +1,60 @@
+.footer {
+    padding: 50px 0px 76px 0px;
+
+    &-item {
+
+        .icon-wrap {
+            align-items: flex-end;
+
+            .icon-tiktok {
+                background: #EAEAEA;
+                width: 24px;
+                height: 24px;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .icon-social {
+                margin-right: 14px;
+            }
+        }
+
+        .address {
+            padding: 16px 0px 0px 0px;
+
+            &-item {
+                padding: 10px 0px;
+
+                span {
+                    img {
+                        margin-right: 11.67px;
+                    }
+                }
+            }
+        }
+
+        .list {
+            padding-top: 24px;
+        }
+
+        .icon-wrap {
+            padding-top: 29.6px;
+        }
+    }
+
+    h4 {
+        font-size: $size-base;
+    }
+
+}
+
+.copy-right {
+    border-top: 1px solid $gray7;
+    padding: 20px 0px 35px 0px;
+}
+
+.app {
+    height: 100%;
+}

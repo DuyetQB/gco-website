@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+@font-face {
+    font-family: "Segoe UI";
+    src: url(../fonts/Segoe-Ui/segoeui.woff);
+}
+
+html {
+    font-family: "Segoe UI" !important;
+    line-height: 1.6;
+}
+
+
+
+ul,
+p,
+li,
+h3,
+span,
+button {
+    list-style-type: none;
+    margin-bottom: 0rem !important;
+    padding-left: 0rem !important;
+    font-family: "Segoe UI";
+
+}
+
+a {
+    color: #2D3436 !important;
+    text-decoration: none !important;
+    font-size: 15px;
+    line-height: 1.6;
+    font-family: "Segoe UI";
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}

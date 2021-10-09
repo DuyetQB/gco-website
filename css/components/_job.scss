@@ -1,0 +1,40 @@
+.job {
+    padding-top: 35px;
+    position: relative;
+
+    &-images {
+        padding-top: 32px;
+
+        &-item {
+            .image {
+                border-radius: 10px;
+                width: 100%;
+            }
+
+            .job-details {
+                padding-top: 10px;
+
+                @media screen and (max-width:769px) {
+                    padding-bottom: 10px;
+                }
+
+                img {
+                    margin-left: 12.5px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .image-float {
+        position: absolute;
+        left: 30px;
+        top: 60px;
+
+        @media screen and (max-width:769px) {
+            left: -30px;
+            top: 0px;
+        }
+
+    }
+}

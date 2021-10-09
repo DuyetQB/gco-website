@@ -1,0 +1,113 @@
+.header {
+    padding: 38px 0px;
+
+    &-content {
+        display: flex;
+        justify-content: space-between;
+
+        &-item {
+            .list {
+
+                display: flex;
+
+                & li {
+                    margin-right: 40px;
+
+
+                }
+            }
+
+            .pointer {
+                cursor: pointer;
+            }
+
+            .mobile-icon {
+                z-index: 3;
+
+                .navbar-toggler {
+                    z-index: 20;
+
+
+                    &:focus {
+                        box-shadow: 0 0 0 0rem !important;
+                    }
+
+                    span {
+                        width: 33px;
+                        height: 4px;
+                        margin-top: 5px !important;
+                        display: block;
+                        position: relative;
+                        border-radius: 3px;
+                        z-index: 7;
+                        background: #cdcdcd;
+                        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+                    }
+                }
+
+
+            }
+
+            .navbar-mobile {
+                position: fixed;
+                left: -300%;
+                transition: all 0.3s ease-in-out;
+                top: 0px;
+                z-index: 5;
+
+                .list {
+                    display: block;
+                    padding: 20px;
+                    background: $white;
+                    width: 56vw;
+                    height: 50vh;
+                    text-align: center;
+
+                    li {
+                        margin-right: 0px;
+                        margin-top: 14px;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+.open {
+    left: 0% !important;
+
+
+    .line1 {
+        transform: rotate(45deg) translate(40%, 50%);
+
+
+    }
+
+    .line2 {
+        opacity: 0;
+
+    }
+
+    .line3 {
+        transform: rotate(-45deg) translate(10px, 0);
+
+    }
+}
+
+.toggle {
+    display: block !important;
+}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+    display: none;
+
+}
