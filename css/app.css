@@ -312,6 +312,7 @@ body {
 @media screen and (max-width: 769px) {
   .products .products-slider .btn-control {
     bottom: -30px;
+    left: 30%;
   }
 }
 
@@ -708,5 +709,6 @@ body {
 
 .app {
   height: 100%;
+  overflow: hidden;
 }
 /*# sourceMappingURL=app.css.map */
