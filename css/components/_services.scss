@@ -21,6 +21,10 @@
                 a {
                     color: $gray2 !important;
                     padding: 10px 0px;
+
+                    @media screen and (max-width:769px) {
+                        font-size: 13px;
+                    }
                 }
 
                 a.active {

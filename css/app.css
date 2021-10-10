@@ -361,6 +361,12 @@ body {
   padding: 10px 0px;
 }
 
+@media screen and (max-width: 769px) {
+  .services-tabs .list li a {
+    font-size: 13px;
+  }
+}
+
 .services-tabs .list li a.active {
   color: #242829 !important;
   border-bottom: 2px solid #00AEEF;
