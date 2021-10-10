@@ -444,6 +444,13 @@ body {
   top: -80px;
 }
 
+@media screen and (max-width: 769px) {
+  .services .image-float {
+    right: 0px;
+    opacity: 0.2;
+  }
+}
+
 .app .text-title {
   text-align: center;
 }
