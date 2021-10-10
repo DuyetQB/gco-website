@@ -14,6 +14,10 @@
             li {
                 padding: 0px 20px;
 
+                @media screen and (max-width:769px) {
+                    padding: 0px 10px;
+                }
+
                 a {
                     color: $gray2 !important;
                     padding: 10px 0px;

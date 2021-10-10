@@ -113,7 +113,7 @@ body {
   padding: 20px;
   background: #fff;
   width: 56vw;
-  height: 50vh;
+  height: 60vh;
   text-align: center;
 }
 
@@ -304,6 +304,9 @@ body {
   position: absolute;
   left: 60%;
   bottom: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 @media screen and (max-width: 769px) {
@@ -345,6 +348,12 @@ body {
 
 .services-tabs .list li {
   padding: 0px 20px;
+}
+
+@media screen and (max-width: 769px) {
+  .services-tabs .list li {
+    padding: 0px 10px;
+  }
 }
 
 .services-tabs .list li a {
